@@ -37,7 +37,7 @@ packages = ["ibridgesguicontrib"]
 write_to = "ibridgesguicontrib/exampleplugin/_version.py"
 
 [tool.ruff]
-exclude = ["_version.py"]
+exclude = ["_version.py", "tab*.py"]
 line-length = 100
 target-version = "py311"
 

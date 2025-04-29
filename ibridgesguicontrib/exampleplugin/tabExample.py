@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 
 ################################################################################
 ## Form generated from reading UI file 'tabExample.ui'
@@ -8,22 +7,23 @@
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
 
-from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
-    QMetaObject, QObject, QPoint, QRect,
-    QSize, QTime, QUrl, Qt)
-from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
-    QFont, QFontDatabase, QGradient, QIcon,
-    QImage, QKeySequence, QLinearGradient, QPainter,
-    QPalette, QPixmap, QRadialGradient, QTransform)
-from PySide6.QtWidgets import (QApplication, QFormLayout, QHBoxLayout, QLabel,
-    QSizePolicy, QSpacerItem, QVBoxLayout, QWidget)
+from PySide6.QtCore import QCoreApplication, QMetaObject
+from PySide6.QtWidgets import (
+    QFormLayout,
+    QHBoxLayout,
+    QLabel,
+    QSizePolicy,
+    QSpacerItem,
+    QVBoxLayout,
+)
 
-class Ui_tabExample(object):
+
+class Ui_tabExample:
     def setupUi(self, Form):
         if not Form.objectName():
-            Form.setObjectName(u"Form")
+            Form.setObjectName("Form")
         Form.resize(767, 429)
-        Form.setStyleSheet(u"QWidget\n"
+        Form.setStyleSheet("QWidget\n"
 "{\n"
 "    background-color: rgb(211,211,211);\n"
 "    color: rgb(88, 88, 90);\n"
@@ -50,53 +50,53 @@ class Ui_tabExample(object):
 "\n"
 "")
         self.horizontalLayout = QHBoxLayout(Form)
-        self.horizontalLayout.setObjectName(u"horizontalLayout")
+        self.horizontalLayout.setObjectName("horizontalLayout")
         self.verticalLayout = QVBoxLayout()
-        self.verticalLayout.setObjectName(u"verticalLayout")
+        self.verticalLayout.setObjectName("verticalLayout")
         self.label = QLabel(Form)
-        self.label.setObjectName(u"label")
+        self.label.setObjectName("label")
 
         self.verticalLayout.addWidget(self.label)
 
         self.formLayout = QFormLayout()
-        self.formLayout.setObjectName(u"formLayout")
+        self.formLayout.setObjectName("formLayout")
         self.label_2 = QLabel(Form)
-        self.label_2.setObjectName(u"label_2")
+        self.label_2.setObjectName("label_2")
 
         self.formLayout.setWidget(0, QFormLayout.LabelRole, self.label_2)
 
         self.server = QLabel(Form)
-        self.server.setObjectName(u"server")
+        self.server.setObjectName("server")
 
         self.formLayout.setWidget(0, QFormLayout.FieldRole, self.server)
 
         self.label_3 = QLabel(Form)
-        self.label_3.setObjectName(u"label_3")
+        self.label_3.setObjectName("label_3")
 
         self.formLayout.setWidget(1, QFormLayout.LabelRole, self.label_3)
 
         self.port = QLabel(Form)
-        self.port.setObjectName(u"port")
+        self.port.setObjectName("port")
 
         self.formLayout.setWidget(1, QFormLayout.FieldRole, self.port)
 
         self.label_4 = QLabel(Form)
-        self.label_4.setObjectName(u"label_4")
+        self.label_4.setObjectName("label_4")
 
         self.formLayout.setWidget(2, QFormLayout.LabelRole, self.label_4)
 
         self.user = QLabel(Form)
-        self.user.setObjectName(u"user")
+        self.user.setObjectName("user")
 
         self.formLayout.setWidget(2, QFormLayout.FieldRole, self.user)
 
         self.label_5 = QLabel(Form)
-        self.label_5.setObjectName(u"label_5")
+        self.label_5.setObjectName("label_5")
 
         self.formLayout.setWidget(3, QFormLayout.LabelRole, self.label_5)
 
         self.home = QLabel(Form)
-        self.home.setObjectName(u"home")
+        self.home.setObjectName("home")
 
         self.formLayout.setWidget(3, QFormLayout.FieldRole, self.home)
 
@@ -121,15 +121,15 @@ class Ui_tabExample(object):
     # setupUi
 
     def retranslateUi(self, Form):
-        Form.setWindowTitle(QCoreApplication.translate("Form", u"Form", None))
-        self.label.setText(QCoreApplication.translate("Form", u"iRODS session information", None))
-        self.label_2.setText(QCoreApplication.translate("Form", u"Server", None))
+        Form.setWindowTitle(QCoreApplication.translate("Form", "Form", None))
+        self.label.setText(QCoreApplication.translate("Form", "iRODS session information", None))
+        self.label_2.setText(QCoreApplication.translate("Form", "Server", None))
         self.server.setText("")
-        self.label_3.setText(QCoreApplication.translate("Form", u"Port", None))
+        self.label_3.setText(QCoreApplication.translate("Form", "Port", None))
         self.port.setText("")
-        self.label_4.setText(QCoreApplication.translate("Form", u"User", None))
+        self.label_4.setText(QCoreApplication.translate("Form", "User", None))
         self.user.setText("")
-        self.label_5.setText(QCoreApplication.translate("Form", u"Home", None))
+        self.label_5.setText(QCoreApplication.translate("Form", "Home", None))
         self.home.setText("")
     # retranslateUi
 

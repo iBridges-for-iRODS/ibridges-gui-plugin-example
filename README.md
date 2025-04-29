@@ -27,6 +27,7 @@ pyside6-uic my_new_tab.ui -o ui_my_new_tab.py
 Create a new python file or rename and adjust the existing `example.py`.
 - Check the imports: Your python filename and class for the layout are called differently
 - Replace the `fill info` with a function that works for your layout to check whether the `session` is handed over correctly during the launch of the iBridges-GUI.
+- Adjust the `__init__.py`
 
 ## Step 5: Adjust the `pyproject.toml`
 Adjust the information in the `pyproject.toml` with your information:
