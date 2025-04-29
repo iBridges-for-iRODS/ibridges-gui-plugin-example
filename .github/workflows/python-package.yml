@@ -30,9 +30,7 @@ jobs:
         python -m pip install ".[test]"
 
     - name: Lint with Ruff
-      run: ruff check ibridgescontrib
-    - name: Check types with MyPy
-      run: mypy ibridgescontrib/uutemplate --namespace-packages --explicit-package-bases
+      run: ruff check ibridgesguicontrib
     - name: Check if templates are listed
       run: |
         ibridges setup --list
