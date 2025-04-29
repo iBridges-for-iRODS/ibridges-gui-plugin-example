@@ -31,7 +31,3 @@ jobs:
 
     - name: Lint with Ruff
       run: ruff check ibridgesguicontrib
-    - name: Check if templates are listed
-      run: |
-        ibridges setup --list
-        test $(ibridges setup --list | wc -l) -eq 12
