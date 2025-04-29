@@ -1,1 +1,1 @@
-# ibridges-gui-contrib-ExampleTabPlugin
+# ibridges-gui-tab-example
