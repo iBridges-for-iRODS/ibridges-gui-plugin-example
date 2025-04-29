@@ -3,16 +3,15 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ibridges-servers-uu"
-description = "iRODS environments for connecting to Utrecht University YoDa servers"
+name = "exampleplugin"
+description = "An example tab for the iBridges GUI."
 authors = [
-    {name = "Christine Staiger", email = "r.d.schram@uu.nl"},
+    {name = "Christine Staiger", email = "c.staiger@uu.nl"},
 ]
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "GNU LGPL"}
 classifiers = [
-    "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
