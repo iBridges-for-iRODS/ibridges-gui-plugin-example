@@ -2,7 +2,7 @@
 
 We will briefly describe how to create a new tab for iBridges GUI and offer it as a plugin to the application.
 
-## Step 1: Use this rrepository as a template repository
+## Step 1: Use this repository as a template repository
 Click on the upper green button `Use this template` to create your new repository for the new iBridges GUI tab.
 Choose a new name for your repository!
 
