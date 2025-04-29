@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ibridges-servers-uu"
+description = "iRODS environments for connecting to Utrecht University YoDa servers"
+authors = [
+    {name = "Christine Staiger", email = "r.d.schram@uu.nl"},
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "GNU LGPL"}
+classifiers = [
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+]
+dynamic = ["version"]
+dependencies = [
+    "ibridgesgui"
+]
+
+[project.optional-dependencies]
+test = ["ruff", "mypy"]
+
+[project.entry-points."ibridges_gui_tab_example"]
+uu = "ibridgesguicontrib.exampleplugin.example:ExampleTab"
+
+[tool.setuptools]
+packages = ["ibridgesguicontrib"]
+
+[tool.setuptools_scm]
+write_to = "ibridgesguicontrib/exampleplugin/_version.py"
+
+[tool.ruff]
+exclude = ["_version.py"]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["C", "D", "E", "F", "UP", "B", "SIM", "I", "N", "W"]
+ignore = ["D203", "D213", "D206", "UP007"]
