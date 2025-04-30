@@ -49,7 +49,7 @@ dependencies = [
 ...
 
 [project.entry-points."ibridges_gui_tab"]
-uu = "ibridgesguicontrib.YOUR_PACKAGE.PYTHON_FILE_NAME:PYTHON_CLASS_NAME"
+YOUR_PACKAGE = "ibridgesguicontrib.YOUR_PACKAGE.PYTHON_FILE_NAME:PYTHON_CLASS_NAME"
 
 ...
 
