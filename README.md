@@ -73,8 +73,7 @@ uv build
 Please check your iBridges-GUI version. The plugin structure is only supported by iBridges-GUI 1.5.0 or higher.
 You an also compile iBridges-GUI from the feature branch [`example_plugin`](https://github.com/iBridges-for-iRODS/iBridges-GUI/tree/example_plugin) that introduces the plugin structure.
 
-Start the iBridgesGUI and check the output or the logs `~/.ibridges/ibridges-gui.log`. If your plugin is detected you should see your plugin name:
-
+Start the iBridgesGUI and check the output or the logs `~/.ibridges/ibridges-gui.log`. 
 ```
 # pip installed
 ibridges-gui
@@ -82,6 +81,8 @@ ibridges-gui
 # uv installed
 uv run ibridges-gui
 ```
+
+If your plugin is detected you should see your plugin name:
 
 ```
 2025-04-29 15:05:10,854 - ibridges-gui - INFO - Third party tabs: [<class 'ibridgesguicontrib.exampleplugin.example.ExampleTab'>]
