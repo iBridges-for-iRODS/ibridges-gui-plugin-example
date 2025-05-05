@@ -1,6 +1,8 @@
 """Example tab class to extend the iBridgesGUI app."""
+import logging
 import PySide6.QtWidgets
 
+from ibridges.session import Session
 from ibridgesguicontrib.exampleplugin.tabExample import Ui_tabExample
 
 
@@ -9,10 +11,12 @@ class ExampleTab(PySide6.QtWidgets.QWidget, Ui_tabExample):
 
     name = "UU example tab"
 
-    def __init__(self, session, app_name):
+    def __init__(self, session: Session, app_name: str, logger: logging.Logger):
         """Initialize the example tab."""
         super().__init__()
         super().setupUi(self)
+        self.logger = logger
+        self.logger.info("Init third party tab: %s", self.name)
         self.session = session
         self.fill_info()
 
