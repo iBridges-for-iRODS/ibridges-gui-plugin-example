@@ -1,8 +1,9 @@
 """Example tab class to extend the iBridgesGUI app."""
 import logging
-import PySide6.QtWidgets
 
+import PySide6.QtWidgets
 from ibridges.session import Session
+
 from ibridgesguicontrib.exampleplugin.tabExample import Ui_tabExample
 
 
