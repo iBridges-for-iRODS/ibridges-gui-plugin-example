@@ -27,7 +27,7 @@ dependencies = [
 [project.optional-dependencies]
 test = ["ruff", "mypy"]
 
-[project.entry-points."ibridges_gui_tab"]
+[project.entry-points."ibridges.gui_tab"]
 uu = "ibridgesguicontrib.exampleplugin.example:ExampleTab"
 
 [tool.setuptools]
