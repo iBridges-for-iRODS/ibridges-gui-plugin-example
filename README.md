@@ -68,10 +68,10 @@ dependencies = [
 ```
 
 The next one defines how the iBridges GUI finds the new tab(s). All classes registered under the entry-points
-will be found by the GUI. Please create an entry for each new tab:
+will be found by the GUI. Please **do not change the name "ibridges.gui_tab"**. Please create an entry for each new tab:
 
 ```
-[project.entry-points."ibridges_gui_tab"]
+[project.entry-points."ibridges.gui_tab"]
 ID1 = "ibridgesguicontrib.YOUR_PACKAGE.PYTHON_FILE_NAME:PYTHON_CLASS_NAME1"
 ID2 = "ibridgesguicontrib.YOUR_PACKAGE.PYTHON_FILE_NAME:PYTHON_CLASS_NAME2"
 ...
