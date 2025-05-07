@@ -28,8 +28,8 @@ dependencies = [
 test = ["ruff", "mypy"]
 
 [project.entry-points."ibridges.gui_tab"]
-uu = "ibridgesguicontrib.exampleplugin.example:ExampleTab"
-
+uu1 = "ibridgesguicontrib.exampleplugin.example1:ExampleTab1"
+uu2 = "ibridgesguicontrib.exampleplugin.example2:ExampleTab2"
 [tool.setuptools]
 packages = ["ibridgesguicontrib"]
 
