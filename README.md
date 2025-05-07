@@ -1,4 +1,4 @@
-# ibridges-gui-tab-example
+# ibridges-gui-plugin-example
 
 This repository shows an example how to create a plugin for the [iBridges GUI](https://github.com/iBridges-for-iRODS) which adds two more views to the GUI. You can use the repository in two ways:
 
