@@ -13,7 +13,10 @@ This repository shows an example how to create a plugin for the [iBridges GUI](h
     You will see a drop down menu with two extra views. Login and select the views to load them.
     
 2) Use the repository as a template to design your own extensions to the iBridges GUI.
- 
+
+## Requirements
+
+You need iBridges-Gui >= 1.5.0
 
 ## Create your own plugin
 Below we will briefly describe how to create a new tab for iBridges GUI and offer it as a plugin to the application.
