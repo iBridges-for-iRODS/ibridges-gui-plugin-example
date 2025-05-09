@@ -10,7 +10,7 @@ from ibridgesguicontrib.exampleplugin.tabExample import Ui_tabExample
 
 class ExampleTab2(PySide6.QtWidgets.QWidget, Ui_tabExample):
     """Example tab for the iBridges GUI."""
-    
+
     # the name of the tab as it will appear in the drop-down menu and as title
     # should be unique
     name = "UU example tab 2"
@@ -19,7 +19,7 @@ class ExampleTab2(PySide6.QtWidgets.QWidget, Ui_tabExample):
         """Initialize the example tab.
 
         The GUI will pass the ibridges session, the name of the iBridges app and a logger
-        to the new class. 
+        to the new class.
         """
         super().__init__()
         super().setupUi(self)
