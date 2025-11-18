@@ -5,7 +5,7 @@ This repository shows an example how to create a plugin for the [iBridges GUI](h
 1) Install it as a plugin by cloning the repo and doing:
     ```
     cd ibridges-gui-tab-example
-    pip installe -e .
+    pip install -e .
     # start the iBridges GUI
     ibiridges-gui
     ```
