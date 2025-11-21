@@ -7,7 +7,7 @@ This repository shows an example how to create a plugin for the [iBridges GUI](h
     cd ibridges-gui-tab-example
     pip install -e .
     # start the iBridges GUI
-    ibiridges-gui
+    ibridges gui
     ```
 
     You will see a drop down menu with two extra views. Login and select the views to load them.
@@ -16,7 +16,7 @@ This repository shows an example how to create a plugin for the [iBridges GUI](h
 
 ## Requirements
 
-You need iBridges-Gui >= 1.5.0
+You need ibridgesgui >= 1.5.0
 
 ## Create your own plugin
 Below we will briefly describe how to create a new tab for iBridges GUI and offer it as a plugin to the application.
@@ -102,10 +102,10 @@ You an also compile iBridges-GUI from the feature branch [`example_plugin`](http
 Start the iBridgesGUI and check the output or the logs `~/.ibridges/ibridges-gui.log`. 
 ```
 # pip installed
-ibridges-gui
+ibridges gui
 
 # uv installed
-uv run ibridges-gui
+uv run ibridges gui
 ```
 
 If your plugin is detected you should see your plugin name:
