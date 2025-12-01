@@ -2,10 +2,11 @@
 import logging
 import os
 from pathlib import Path
+
 import PySide6.QtWidgets
-from PySide6.QtGui import QIcon
-from PySide6.QtCore import QSize
 from ibridges.session import Session
+from PySide6.QtCore import QSize
+from PySide6.QtGui import QIcon
 
 # import your converted layout file
 from ibridgesguicontrib.exampleplugin.tabExample1 import Ui_tabExample
