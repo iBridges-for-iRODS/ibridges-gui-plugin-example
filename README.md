@@ -101,10 +101,10 @@ You an also compile iBridges-GUI from the feature branch [`example_plugin`](http
 
 Start the iBridgesGUI and check the output or the logs `~/.ibridges/ibridges-gui.log`. 
 ```
-# pip installed
+#### pip installed
 ibridges gui
 
-# uv installed
+#### uv installed
 uv run ibridges gui
 ```
 
@@ -115,7 +115,10 @@ INFO:ibridges-gui:Third party tabs: [<class 'ibridgesguicontrib.exampleplugin.ex
 INFO:ibridges-gui:Tab names: ['UU example tab 1', 'UU example tab 2']
 ```
 
+## Icons and images
 
+When the new view is embedded in the iBridges GUI the current working directory is set to the main repository.
+In `example1.py` we provide some code to check the locations of image files and how they relate to the main repository once it is installed.
 
 
 
